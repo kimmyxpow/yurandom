@@ -26,12 +26,12 @@ import { Yurandom } from "yurandom";
 
 const rng = new Yurandom("uwu");
 
-rng.random(); // 0.72183...
-rng.int(1, 10); // 7
-rng.pick(["a", "b", "c"]); // "b"
-rng.bool(); // true or false
-rng.uuid(); // deterministic UUID
-rng.pastel(); // "hsl(125, 70%, 85%)"
+rng.random(); // 0.00013223936797143612
+rng.int(1, 10); // 2
+rng.pick(["a", "b", "c"]); // a
+rng.bool(); // false
+rng.uuid(); // 29457443-6c0b-7e8f-5d81-0c0f3357962e
+rng.pastel(); // hsl(164, 70%, 85%)
 ```
 
 ### 📘 API
@@ -63,7 +63,7 @@ rng.pastel(); // "hsl(125, 70%, 85%)"
 
 ### 🔒 Deterministic by Design
 
-All randomness is based on your input seed and powered by [Xoroshiro128+](https://prng.di.unimi.it/xoroshiro128plus.c). This makes it ideal for reproducible tasks.
+All randomness is based on your input seed and powered by [Xoroshiro128+](https://prng.di.unimi.it/xoroshiro128plus.c). This means results are 100% repeatable, even if your code runs next year, next decade, or after World War 3. As long as the seed is the same, the result will never change. Not even a meteor strike or a global reset button can stop it.
 
 ### 🧪 Run Tests
 

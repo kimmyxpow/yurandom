@@ -1,0 +1,20 @@
+{
+  "name": "yurandom",
+  "version": "0.1.0",
+  "author": "Abi Noval Fauzi <abinovalf@gmail.com>",
+  "keywords": [
+    "random",
+    "seed",
+    "deterministic",
+    "prng",
+    "xoroshiro"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "description": "Deterministic seed-based random generator using Xoroshiro128+. Useful for avatars, testing, procedural content, and more.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimmyxpow/yurandom"
+  }
+}

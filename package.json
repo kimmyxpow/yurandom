@@ -24,7 +24,7 @@
   "description": "Deterministic seed-based random generator using Xoroshiro128+. Useful for avatars, testing, procedural content, and more.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kimmyxpow/yurandom"
+    "url": "git+https://github.com/kimmyxpow/yurandom.git"
   },
   "files": [
     "index.js",

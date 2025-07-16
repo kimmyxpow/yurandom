@@ -1,13 +1,22 @@
 {
   "name": "yurandom",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Abi Noval Fauzi <abinovalf@gmail.com>",
   "keywords": [
     "random",
-    "seed",
-    "deterministic",
     "prng",
-    "xoroshiro"
+    "seed",
+    "seeded",
+    "deterministic",
+    "xoroshiro",
+    "uuid",
+    "rng",
+    "avatar",
+    "shuffle",
+    "testing",
+    "mock",
+    "procedural",
+    "data generation"
   ],
   "license": "MIT",
   "main": "./dist/index.js",

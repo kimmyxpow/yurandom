@@ -1,4 +1,4 @@
-## yurandom
+## yurandom ![NPM Downloads](https://img.shields.io/npm/dm/yurandom?style=flat-square) ![NPM Version](https://img.shields.io/npm/v/yurandom?style=flat-square)
 
 A deterministic, seed-based pseudo-random generator powered by Xoroshiro128+, with zero dependencies.
 
